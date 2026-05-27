@@ -62,7 +62,7 @@ strike_display_text = "🟢 **Status:** 0/3 Strikes (Clean)"
 # --- Featherless AI Global State ---
 featherless_client = OpenAI(
     base_url="https://api.featherless.ai/v1",
-    api_key=os.environ.get("FEATHERLESS_API_KEY", "rc_cf10bdcb32b39cce74dec0367cd29e84ddde8b2de1eea067a75073a9b17436a2")
+    api_key=os.environ.get("FEATHERLESS_API_KEY", "Can't show it here")
 )
 last_api_call_time = time.time()
 is_analyzing = False
